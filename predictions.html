@@ -46,7 +46,7 @@
 
 			function update_prediction() {
 
-				$.getJSON("http://sf-pyw.mosyag.in/m04/api/forecasts", function(datadata) {
+				$.getJSON("https://sf-pyw.mosyag.in/m04/api/forecasts", function(datadata) {
 					set_content_in_divs(datadata["prophecies"]);
 				});
 
